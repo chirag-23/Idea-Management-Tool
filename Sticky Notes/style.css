@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:cornsilk;
+}
+
+.container2{
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.container3{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    top: 15%;
+    left: 36%;
+    font-size: 18px;
+    font-style: italic;
+}
+
+textarea{
+    box-shadow: 6px 6px 10px 2px rgb(153, 153, 153);
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    width: 375px;
+    height: 300px;
+    padding: 35px 25px 25px 25px;
+    color: darkgray;
+    font-weight: 500;
+}
+
+.container3 svg{
+    color: darkgray;
+}
+
+#check-icon{
+    position: absolute;
+    right: 11%;
+    top: 5%;
+}
+#check-icon:hover{
+    width: 22px;
+    height: 22px;
+    color: green;
+}
+
+#cross-icon{
+    position: absolute;
+    right: 3%;
+    top: 5%;
+}
+
+#cross-icon:hover{
+    width: 22px;
+    height: 22px;
+    color: red;
+}
+
+.foot{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 35px;
+    width: 100%;
+}
+
+footer div{
+    background: snow;
+    color: darkgray;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 1.05em;
+
+}
